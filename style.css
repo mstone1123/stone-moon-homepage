@@ -44,6 +44,7 @@
      margin-bottom: 20px;
      text-align: center;
      font-size: 32px;
+     font-weight: bold;
    }
    .contents-wrapper-inner {
      display: flex;
@@ -84,6 +85,7 @@
    .news-list {
      margin-right: 10px;
      margin-left: 10px;
+     font-weight: bold;
    }
    .news-list-title {
      margin-top: 5px;
