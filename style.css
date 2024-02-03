@@ -1,7 +1,7 @@
    * {
      margin: 0;
      padding: 0;
-     border: solid 1px;
+     /* border: solid 1px; */
      box-sizing: border-box;
    }
 
@@ -12,6 +12,7 @@
    .nav-wrapper {
      height: 100vh;
      width: 18%;
+     background-color: #00FFFF
    }
    .nav {
      margin-top: 43px;
@@ -33,6 +34,10 @@
    .contents-wrapper {
      height: 100%;
      width: 82%;
+     background-image: url(images/backtext.png);
+     background-size: 30%;
+     background-repeat: repeat;
+
    }
    .heading {
      margin-top: 35px;
