@@ -7,6 +7,9 @@
 
    body {
      display: flex;
+     background-image: url(images/backtext.png);
+     background-size: 30%;
+     background-repeat: repeat;
    }
 
    .nav-wrapper {
@@ -34,9 +37,9 @@
    .contents-wrapper {
      height: 100%;
      width: 82%;
-     background-image: url(images/backtext.png);
+     /* background-image: url(images/backtext.png);
      background-size: 30%;
-     background-repeat: repeat;
+     background-repeat: repeat; */
 
    }
    .heading {
