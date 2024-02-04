@@ -94,10 +94,10 @@
      margin-top: 5px;
      margin-bottom: 4px;
      border-top: 1px solid #000;
-     border-bottom: 1px solid #000;
 
    }
    .news-list-description {
      margin-bottom: 30px;
      margin-left: 80px;
+     border-bottom: 1px solid #000;
    }
