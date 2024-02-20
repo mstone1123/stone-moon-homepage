@@ -7,15 +7,16 @@
 
    body {
      display: flex;
-     background-image: url(images/backtext.png);
+     /* background-image: url(images/backtext.png);
      background-size: 30%;
-     background-repeat: repeat;
+     background-repeat: repeat; */
    }
 
    .nav-wrapper {
-     height: 100vh;
+     height: 200vh;
      width: 18%;
-     background-color: #00FFFF
+     background-color: #00FFFF;
+     border-right:double 3px  #b0b0b0;
    }
    .nav {
      margin-top: 43px;
@@ -35,13 +36,23 @@
 
 
    .contents-wrapper {
-     height: 100%;
+     height: 200vh;
      width: 82%;
-     /* background-image: url(images/backtext.png);
-     background-size: 30%;
-     background-repeat: repeat; */
-
+     background-image: url(images/backtext.png);
+     background-size: 50%;
+     background-repeat: repeat;
    }
+
+   .contents-wrapper_admin {
+    height: 100vh;
+    width: 82%;
+    background-color: #00FFFF;
+    background-size: 50%;
+    background-repeat: repeat;
+  }
+
+
+
    .heading {
      margin-top: 35px;
      margin-bottom: 20px;
@@ -60,7 +71,7 @@
    }
    .face-photo {
      width: 100%;
-     height: 414px;
+     height: 486px;
      margin-bottom: 23px;
    }
    .profile {
@@ -75,6 +86,11 @@
      margin-bottom: 20px;
    }
 
+   .profile_admin {
+    margin-bottom: 40px;
+    margin-left: 20px;
+    border-bottom: 1px solid #000;
+  }
 
    .content-right {
      width: 530px;
