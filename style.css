@@ -15,6 +15,8 @@
    .nav-wrapper {
      height: 200vh;
      width: 18%;
+     font-size: 18px;
+     font-weight: normal;
      background-color: #00FFFF;
      border-right:double 3px  #b0b0b0;
    }
@@ -44,7 +46,7 @@
    }
 
    .contents-wrapper_admin {
-    height: 100vh;
+    height: 200vh;
     width: 82%;
     background-color: #00FFFF;
     background-size: 50%;
@@ -85,25 +87,19 @@
    .mail {
      margin-bottom: 20px;
    }
-
-   .profile_admin {
-    margin-bottom: 40px;
-    margin-left: 20px;
-    border-bottom: 1px solid #000;
-  }
-
    .content-right {
      width: 530px;
    }
    .news-heading {
      margin-bottom: 30px;
      text-align: center;
-     font-size: 16px;
+     font-size: 18px;
      font-weight: normal;
    }
    .news-list {
      margin-right: 10px;
      margin-left: 10px;
+     font-size: 18px;
      font-weight: bold;
      border-top: 1px solid #000;
      border-bottom: 1px solid #000;
@@ -121,4 +117,23 @@
     margin-bottom: 30px;
     margin-left: 80px;
     font-weight: bold;
+  }
+   .news-heading {
+     margin-bottom: 30px;
+     text-align: center;
+     font-size: 18px;
+     font-weight: normal;
+   }
+   .normal-text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .normal-text_admin {
+    /* margin-bottom: 40px;
+    margin-left: 20px; */
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 1px solid #000;
   }
