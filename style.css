@@ -40,7 +40,7 @@
    .contents-wrapper {
      height: 200vh;
      width: 82%;
-     background-image: url(images/backtext.png);
+     /* background-image: url(images/backtext.png); */
      background-size: 50%;
      background-repeat: repeat;
    }
